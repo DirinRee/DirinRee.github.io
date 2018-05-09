@@ -14,4 +14,4 @@ permalink: /links/
 [youtube]: https:www.youtube.com
 [twitch]: https:www.twitch.tv
 [minecraft]: https:minecraft.net
-[learn@vcs]:
+[learn@vcs]: https:learn.vcs.net
