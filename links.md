@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: links
+permalink: /links/
 ---
 
 1. [Fortnite][fortnite]
