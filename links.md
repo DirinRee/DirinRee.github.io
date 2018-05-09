@@ -8,8 +8,10 @@ permalink: /links/
 2. [Youtube][youtube]
 3. [Twitch][twitch]
 4. [Minecraft][minecraft] 
+5. [Learn@vcs][learn@vcs]
 
-[fortnite] www.epicgames.com
-[youtube] www.youtube.com
-[twitch] www.twitch.tv
-[minecraft] minecraft.net
+[fortnite]: https:www.epicgames.com
+[youtube]: https:www.youtube.com
+[twitch]: https:www.twitch.tv
+[minecraft]: https:minecraft.net
+[learn@vcs]:
