@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "hi markdown"
+date:   2018-05-11 14:16:05 -0700
+categories: uncatagorized 
+author: Dylan Lee
+---
+
+
+
+
 # Biggest Header
 ## hi header
 ### bumm sausage
@@ -12,5 +23,9 @@
 1. hi
 2. hi
 3. hi
+
 • hi
 • hi
+*hi
+*hi 2
+*hi 3
