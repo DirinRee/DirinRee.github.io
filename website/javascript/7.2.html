@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+ 
+<body>
+
+<script type="text/javascript">
+	var dayoftheweek = Number(prompt("what day is it?? Sundday for 1 and 2 for Monday, etc.", "1"));
+	
+switch(dayoftheweek) {
+	case 1:
+		alert("we are clsed on sundays");
+		break;
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+	case 6:
+		alert("mon-fri buissness hours are 8am-5pm");
+		break;
+	case 7:
+		alert("hours on satdays are 10am-3pm");
+		break;
+	default:
+		alert("enter 1 for sun, 2 for mon,etc.");
+		break;
+}
+</script>
+</body>
+</html>

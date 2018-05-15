@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body onLoad="leap()">
+<script type="text/javascript">
+/*
+The year can be evenly divided by 4;
+
+If the year can be evenly divided by 100, it is NOT a leap year, unless;
+
+The year is also evenly divisible by 400. Then it is a leap year.
+
+*/
+function isLeapYear(y) {
+	if(y%4==0) {
+		return true;
+	}
+}
+	
+	var year = Number(prompt("what year is it?"));
+	document.write(isLeapYear(year));
+
+	
+</script>
+</body>
+</html>

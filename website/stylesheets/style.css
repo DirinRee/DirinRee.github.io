@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* My Color Palette
+Color 1: #470005
+Color 2: #DBBC58
+Color 3: #19E7DB
+*/
+
+
+/*******************************
+________________________________
+
+        BASIC STRUCTURE
+________________________________
+
+*******************************/
+
+#wrapper {
+	width: 960px;
+	padding: 5px;
+	margin: 20px auto;
+}
+
+#sidebar {
+	float: left;
+	width: 300px;
+}
+
+#header {
+	height: 100px;
+}
+
+#context {
+	float: right;
+	width: 600px;
+}
+
+#footer {
+	clear: both;
+}
+
+/*******************************
+________________________________
+
+        COLOR AND FONTS
+________________________________
+
+*******************************/
+body {
+
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+color: blue;
+background-image:url("../images/potato.gif");
+}
+
+#header,#sidebar,#content,#footer {
+	background-color: rgba(149,226,155,0.83);
+	margin-bottom: 4px;
+	border:double;
+	border-radius: 8px;
+	border-color: grey;
+	padding-left: 4px;
+	paddin-right: 4px; 
+}
+
+/*******************************
+________________________________
+
+       RESPONSIVE WIDTH
+________________________________
+
+*******************************/
+
+@media screen and (max-width:980px){
+	#wrapper {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+}
+
+
+@media screen and (max-width:700px){
+	#content, #sidebar {
+		width: auto;
+		float: none;
+	}
+	#header {
+		height: auto;
+	}
+}
+
+@media screen and (max-width:480px){
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+#sidebar {
+	float: none;
+}
+
+}
+/* Phone */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px){
+	body {
+		font-size: 40px;
+		
+	}
+	#header {
+		height: auto;
+	}
+	#context {
+		width: auto;
+	}
+	#sidebar {
+		width: auto;
+		clear: both;
+	}
+	#header, #sidebar, #context, #footer {
+		
+		border-radius: 16px;
+		border-width: 8px;
+	}
+			
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

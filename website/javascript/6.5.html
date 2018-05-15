@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var num1 = prompt("What is your speed in mph:	");
+var num2 = prompt("How far are you traveling in miles:	");
+var time = Number(num1)/Number(num2);
+var hoi = Number(num1)%Number(num2);
+var something = Number(hoi)/Number(num2);
+var hello = Number(something)*60;
+var minute = Math.round(hello);
+var hour = (num1-hoi)/Number(num2);
+document.write("hours:" + "hours and" + minute + "minutes:");
+</script>
+</body>
+</html>
